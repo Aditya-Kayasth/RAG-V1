@@ -1,0 +1,12 @@
+# Gemini RAG System Overview
+
+The Retrieval-Augmented Generation (RAG) system combines Google Gemini LLM capabilities with ChromaDB vector search.
+
+## Key Architecture Components
+1. Document Ingestion: Loads .txt, .md, and .pdf documents and splits them into chunks.
+2. Vector Embeddings: Uses Google Gemini text-embedding-004 to create high-dimensional embeddings for text chunks.
+3. Vector Database: ChromaDB stores and indexes vector embeddings locally in persistent storage.
+4. RAG Pipeline: Retrieves top-k relevant chunks based on user questions and generates context-aware answers using Gemini 3.5 Flash / Gemini models.
+
+## Developer Contact
+Project Lead: Ram Rajesh Shrivastav (GitHub: https://github.com/Aditya-Kayasth)
